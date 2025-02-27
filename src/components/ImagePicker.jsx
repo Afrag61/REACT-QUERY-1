@@ -10,7 +10,7 @@ export default function ImagePicker({ images, selectedImage, onSelect }) {
             className={selectedImage === image.path ? 'selected' : undefined}
           >
             <img
-              src={`http://localhost:3000/${image.path}`}
+              src={`http://192.168.1.3:3000/${image.path}`}
               alt={image.caption}
             />
           </li>
