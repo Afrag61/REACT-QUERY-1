@@ -1,5 +1,5 @@
 # files
-http(OLD).js
+http*.js
 
 # Logs
 logs
