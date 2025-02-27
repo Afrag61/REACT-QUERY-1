@@ -22,7 +22,7 @@ export async function fetchEvents({ signal, searchTerm }) {
 
 
 export async function createNewEvent(eventData) {
-  const response = await fetch(`http://localhost:3000/events`, {
+  const response = await fetch(`http://192.168.1.3:3000/events`, {
     method: 'POST',
     body: JSON.stringify(eventData),
     headers: {
